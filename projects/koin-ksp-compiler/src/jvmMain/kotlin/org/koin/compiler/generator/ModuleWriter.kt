@@ -161,7 +161,7 @@ abstract class ModuleWriter(
 
     open fun writeModuleIncludes() {
         if (module.includes?.isNotEmpty() == true){
-            writeln("${TAB}includes(${generateIncludes(module.includes.sortedBy { it.packageName+""+it.className })})")
+            writeln("${TAB}includes(${generateIncludes(module.includes.sortedBy { it.packageName+"."+it.className })})")
         }
     }
 
