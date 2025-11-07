@@ -71,7 +71,7 @@ ksp {
 
 android {
     namespace = "com.jetbrains.kmpapp.data"
-    compileSdk = 34
+    compileSdk = 35
 
     sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
     sourceSets["main"].res.srcDirs("src/androidMain/res")
@@ -79,7 +79,7 @@ android {
 
     defaultConfig {
         minSdk = 24
-        targetSdk = 34
+//        targetSdk = 34
     }
     packaging {
         resources {
