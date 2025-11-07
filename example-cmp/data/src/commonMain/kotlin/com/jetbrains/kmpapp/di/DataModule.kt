@@ -11,6 +11,7 @@ import org.koin.core.annotation.Single
 
 @Module
 @ComponentScan("com.jetbrains.kmpapp.data")
+//TODO use @Configuration once KSP is fixed - else use KSP 2.1.20 - 1.0.28
 class DataModule {
 
     @Single
